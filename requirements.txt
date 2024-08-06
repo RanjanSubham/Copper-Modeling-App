@@ -8,15 +8,6 @@ matplotlib==3.8.4
 seaborn==0.13.2
 scipy==1.13.1
 pickleshare==0.7.5
-altair==5.0.1
-attrs==23.1.0
-backports.zoneinfo==0.2.1
-blinker==1.6.2
-cachetools==5.3.1
-certifi==2023.7.22
-charset-normalizer==3.2.0
-click==8.1.6
-colorama==0.4.6
 decorator==5.1.1
 gitdb==4.0.10
 GitPython==3.1.32
@@ -45,8 +36,6 @@ pytz==2023.3
 pytz-deprecation-shim==0.1.0.post0
 requests==2.31.0
 rich==13.4.2
-scikit-learn==1.0.2
-scipy==1.7.3
 six==1.16.0
 smmap==5.0.0
 streamlit-option-menu==0.3.6
