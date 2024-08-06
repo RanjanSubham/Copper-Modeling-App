@@ -400,7 +400,7 @@ def load_data(file_path):
 
 # Load the data from local file path
 file_path = r"C:\Users\Subham Ranjan\Downloads\copper_randomcsv.csv"
-df2 = load_data(file_path)
+df2 = load_data(file_path,encoding="ISO-8859-1")
 
 with tab3:
     st.markdown('<div class="header"><h2>Statistical Analysis</h2></div>', unsafe_allow_html=True)
