@@ -400,7 +400,7 @@ def load_data(file_path):
     return pd.read_csv(file_path, encoding="ISO-8859-1")
 
 # Load the data from local file path
-file_path = r"C:\Users\Subham Ranjan\Downloads\copper_randomcsv.csv"
+file_path = r"https://raw.githubusercontent.com/yourusername/repositoryname/branchname/path/to/file.csv"
 df2 = load_data(file_path)
 
 
