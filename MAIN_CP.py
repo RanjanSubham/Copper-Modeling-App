@@ -395,12 +395,8 @@ with tab2:
 import seaborn as sns
 
 import pandas as pd
-
-url = "https://raw.githubusercontent.com/SubhamRanjan/copper_data/main/copper_randomcsv.csv"
-try:
-    df2 = pd.read_csv(url, encoding="ISO-8859-1")
-except Exception as e:
-    st.error(f"An error occurred: {e}")
+df2 = pd.read_csv("https://raw.githubusercontent.com/RanjanSubham/Copper-Modeling-App/main/copper_randomcsv.csv")
+print(df.head())
 
 
 
