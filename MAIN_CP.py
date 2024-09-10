@@ -394,14 +394,15 @@ with tab2:
       
 import seaborn as sns
 
-# Function to load data from CSV
-def load_data(file_path):
-    # Add encoding if required (e.g., 'ISO-8859-1', 'utf-8', etc.)
-    return pd.read_csv(file_path, encoding="ISO-8859-1")
+import pandas as pd
 
-# Load the data from local file path
-file_path = r"https://raw.githubusercontent.com/yourusername/repositoryname/branchname/path/to/file.csv"
-df2 = load_data(file_path)
+url = "https://raw.githubusercontent.com/SubhamRanjan/copper_data/main/copper_randomcsv.csv"
+try:
+    df2 = pd.read_csv(url, encoding="ISO-8859-1")
+except Exception as e:
+    st.error(f"An error occurred: {e}")
+
+
 
 
 with tab3:
