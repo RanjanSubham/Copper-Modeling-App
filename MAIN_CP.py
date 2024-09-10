@@ -396,7 +396,6 @@ import seaborn as sns
 
 import pandas as pd
 df2 = pd.read_csv("https://raw.githubusercontent.com/RanjanSubham/Copper-Modeling-App/main/copper_randomcsv.csv")
-print(df.head())
 
 
 
